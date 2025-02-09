@@ -16,3 +16,10 @@ export async function getProfitFromDB() {
     await new Promise((resolve) => setTimeout(resolve, 3000));
 
 }
+export function getUser() {
+    return {
+        isAdmin: true,
+        isManger: false,
+        id: 101
+    }
+}

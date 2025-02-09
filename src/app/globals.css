@@ -2,3 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+font-family:'Segoe UI',Tahoma,sans-serif;
+
+}
+.card{
+    padding:40px 15px;
+    border-radius:10px;
+    font-size:27px;
+    font-weight:bold;
+    width:50%;
+    margin:15px 0;
+    color:white;
+    text-align:center;
+}
+.loading{
+    background-color:gray;
+    opacity:0.7;
+    
+}

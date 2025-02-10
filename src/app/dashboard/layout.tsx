@@ -1,15 +1,19 @@
 import { ReactNode } from "react"
 
 interface DashboardLayoutProps {
-    children: ReactNode
+    children: ReactNode;
+    orders: ReactNode;
 }
 
 
-const DashboardLayout = ({ children }: DashboardLayoutProps) => {
+const DashboardLayout = ({ children, orders }: DashboardLayoutProps) => {
     return (
-        <small>
+        <main className="p-10">
+            <div className=" flex justify-center gap-7 items-center">
+                {orders}
+            </div>
             {children}
-        </small>
+        </main>
     )
 }
 

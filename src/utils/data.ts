@@ -1,8 +1,7 @@
-import { resolve } from "path";
 
 export async function getOrderCountFromDB() {
     await new Promise((resolve) => setTimeout(resolve, 2000));
-    return "Order : 21";
+    return "Orders : 21";
 }
 
 

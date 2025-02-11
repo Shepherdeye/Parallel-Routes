@@ -13,6 +13,7 @@ export async function getSalesFromDB() {
 
 export async function getProfitFromDB() {
     await new Promise((resolve) => setTimeout(resolve, 3000));
+    return "Profit : $10,000";
 
 }
 export function getUser() {

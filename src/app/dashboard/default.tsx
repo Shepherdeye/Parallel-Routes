@@ -1,9 +1,10 @@
 import React from 'react'
 
-const DefaultOrder = () => {
+const DefaultDashboard = () => {
     return (
-        <div>DefaultOrder </div>
+
+        <div className='card bg-blue-900'>DefaultDashboard </div>
     )
 }
 
-export default DefaultOrder 
+export default DefaultDashboard 

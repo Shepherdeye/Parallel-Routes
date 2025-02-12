@@ -1,9 +1,9 @@
 import React from 'react'
 
-const DefaultDashboard = () => {
+const DefaultSales = () => {
     return (
-        <div>DefaultDashboard </div>
+        <div className='card bg-blue-400'>DefaultSales </div>
     )
 }
 
-export default DefaultDashboard 
+export default DefaultSales 

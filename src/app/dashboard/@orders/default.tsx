@@ -2,7 +2,7 @@ import React from 'react'
 
 const DefaultOrder = () => {
     return (
-        <div>DefaultOrder </div>
+        <div className=' card bg-red-600'>DefaultOrder </div>
     )
 }
 

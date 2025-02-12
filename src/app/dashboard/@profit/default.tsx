@@ -2,7 +2,7 @@ import React from 'react'
 
 const DefaultProfits = () => {
     return (
-        <div>DefaultProfits </div>
+        <div className='card bg-green-600'>DefaultProfits </div>
     )
 }
 

@@ -1,4 +1,3 @@
-import { getProfitFromDB } from '@/utils/data'
 import React from 'react'
 
 const DefaultProfits = async () => {

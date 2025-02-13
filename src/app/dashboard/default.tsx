@@ -2,7 +2,7 @@
 const DefaultDashboard = () => {
     return (
 
-        <div className='card bg-blue-900'>DefaultDashboard </div>
+        <div className='card bg-blue-900'>DefaultDashboard test </div>
     )
 }
 
